@@ -3,9 +3,7 @@
 var ReactCreateClass = require('react/lib/ReactCompositeComponent').createClass
   , ReactDOM = require('react/lib/ReactDOM')
 
-module.exports =
-  ReactCreateClass
-    ( { getDefaultProps:
+module.exports = ReactCreateClass( { getDefaultProps:
           function () {
             return {staffPosition: 4}
           }
